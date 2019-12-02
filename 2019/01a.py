@@ -15,4 +15,4 @@ def aoc_01a(filename):
         print(sum_val)
 
 if __name__ == '__main__':
-    aoc_01a("01a_input")
+    aoc_01a("01_input")
