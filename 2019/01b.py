@@ -1,28 +1,32 @@
 import math
 
-def fuel_v2(val, sum_val):
-    print(val)
-    print(sum_val)
-    if math.floor(int(val)/3)-2 <= 0:
-        return sum_val
-    else:
-        sum_val += val
-        fuel_v2(math.floor(int(val)/3)-2, sum_val)
+
+def fuel(val):
+    return math.floor(int(val) / 3) - 2
+
+
+def fuel_v2(val):
+    required_fuel = 0
+
+    partial_fuel = val
+
+    while fuel(partial_fuel) >= 0:
+        partial_fuel = fuel(partial_fuel)
+        required_fuel += partial_fuel
+
+    return required_fuel
+
 
 def aoc_01b(filename):
+    with open(filename) as f:
+        content = f.readlines()
 
-    # print(fuel_v2(14))
-    print(fuel_v2(1969, 0))
+        sum_val = 0
+        for val in content:
+            sum_val += fuel_v2(val)
 
+        print(sum_val)
 
-    # with open(filename) as f:
-    #     content = f.readlines()
-    #
-    #     sum_val = 0
-    #     for val in content:
-    #         sum_val += fuel(val)
-    #
-    #     print(sum_val)
 
 if __name__ == '__main__':
     aoc_01b("01_input")
