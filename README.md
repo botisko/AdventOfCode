@@ -4,7 +4,7 @@ A repository for [Advent of Code][1] challenges.
 *You can find older AoC challenges at https://adventofcode.com/$YEAR*
 
 ## Progress (2020)
-- [ ] Day 01
+- [x] Day 01: Report Repair
 - [ ] Day 02
 - [ ] Day 03
 - [ ] Day 04

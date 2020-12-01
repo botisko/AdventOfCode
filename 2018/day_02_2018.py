@@ -1,7 +1,7 @@
 """Advent of Code 2018 - Day 2: Inventory Management System"""
 
 import sys
-import aoc2018_utils
+import utils_2018
 
 
 def aoc2018_day_02_a(list_data):

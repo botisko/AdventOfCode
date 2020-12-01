@@ -1,7 +1,7 @@
 """Advent of Code 2018 - Day 1: Chronal Calibration"""
 
 import sys
-import aoc2018_utils
+import utils_2018
 
 
 def aoc2018_day_01_a(int_data):
