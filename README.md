@@ -5,7 +5,7 @@ A repository for [Advent of Code][1] challenges.
 
 ## Progress (2020)
 - [x] Day 01: Report Repair
-- [ ] Day 02
+- [x] Day 02: Password Philosophy
 - [ ] Day 03
 - [ ] Day 04
 - [ ] Day 05
