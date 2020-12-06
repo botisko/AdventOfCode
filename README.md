@@ -7,7 +7,7 @@ A repository for [Advent of Code][1] challenges.
 - [x] Day 01: Report Repair
 - [x] Day 02: Password Philosophy
 - [x] Day 03: Toboggan Trajectory
-- [ ] Day 04
+- [x] Day 04: Passport Processing
 - [ ] Day 05
 - [ ] Day 06
 - [ ] Day 07
