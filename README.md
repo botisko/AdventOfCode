@@ -6,7 +6,7 @@ A repository for [Advent of Code][1] challenges.
 ## Progress (2020)
 - [x] Day 01: Report Repair
 - [x] Day 02: Password Philosophy
-- [ ] Day 03
+- [x] Day 03: Toboggan Trajectory
 - [ ] Day 04
 - [ ] Day 05
 - [ ] Day 06
