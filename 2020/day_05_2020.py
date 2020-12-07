@@ -4,27 +4,39 @@ import sys
 import utils_2020
 
 
-def find_seat_id(bin_id, min_range, max_range):
-    if len(bin_id) == 1:
-        print("Finish him!")
-        if bin_id == 'B':
-            return max_range
-        elif bin_id == 'F':
-            return min_range
-        else:
-            return None
-    else:
-        print('=============')
-        if bin_id[0] == 'B':
-            max_range_new = int(max_range/2)
-            print("Max range: {0}".format(max_range))
-        elif bin_id[0] == 'F':
-            min_range_new = int(max_range/2)
-            print("Min range: {0}".format(min_range))
-        print(bin_id[0])
-        print(bin_id[1:])
-        print('=============')
-        find_seat_id(bin_id[1:], min_range_new, max_range_new)
+# TODO: Rewerite as a recursion
+def find_row_id(bin_id):
+    """
+
+    :param bin_id:
+    :return:
+    """
+    id_range = list(range(0, 128))
+
+    for item in bin_id:
+        if item == 'F':
+            id_range = id_range[:int(len(id_range) / 2)]
+        elif item == 'B':
+            id_range = id_range[int(len(id_range) / 2):]
+
+    return id_range[0]
+
+# TODO: Rewerite as a recursion
+def find_column_id(bin_id):
+    """
+
+    :param bin_id:
+    :return:
+    """
+    id_range = list(range(0, 8))
+
+    for item in bin_id:
+        if item == 'L':
+            id_range = id_range[:int(len(id_range)/2)]
+        elif item == 'R':
+            id_range = id_range[int(len(id_range)/2):]
+
+    return id_range[0]
 
 
 def day_05_a(list_data):
@@ -33,13 +45,14 @@ def day_05_a(list_data):
     :param list_data:
     :return:
     """
-    print(list_data)
-
+    highest_seat_id = 0
 
     for bin_id in list_data:
-        find_seat_id(bin_id[0:6], 1, 128)
-        break
+        seat_id = find_row_id(bin_id[:7]) * 8 + find_column_id(bin_id[7:])
+        if seat_id > highest_seat_id:
+            highest_seat_id = seat_id
 
+    return highest_seat_id
 
 def day_05_b(list_data):
     """
@@ -47,7 +60,17 @@ def day_05_b(list_data):
     :param list_data:
     :return:
     """
-    pass
+    seat_ids = list()
+
+    for bin_id in list_data:
+        seat_ids.append(find_row_id(bin_id[:7]) * 8 + find_column_id(bin_id[7:]))
+
+    seat_ids.sort()
+
+    for idx, seat_id in enumerate(seat_ids):
+        if idx < len(seat_ids)-2:
+            if seat_ids[idx+1] != seat_id+1:
+                return seat_ids[idx] + 1
 
 
 def main():
@@ -62,7 +85,7 @@ def main():
     list_data = [x for x in data[:-1]]
 
     print('The answer for day 5 part 1 is {}'.format(day_05_a(list_data)))
-    # print('The answer for day 5 part 2 is {}'.format(day_05_b(list_data)))
+    print('The answer for day 5 part 2 is {}'.format(day_05_b(list_data)))
 
 
 if __name__ == '__main__':

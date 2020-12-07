@@ -8,7 +8,7 @@ A repository for [Advent of Code][1] challenges.
 - [x] Day 02: Password Philosophy
 - [x] Day 03: Toboggan Trajectory
 - [x] Day 04: Passport Processing
-- [ ] Day 05: Binary Boarding
+- [x] Day 05: Binary Boarding
 - [ ] Day 06
 - [ ] Day 07
 - [ ] Day 08
