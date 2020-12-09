@@ -9,8 +9,8 @@ A repository for [Advent of Code][1] challenges.
 - [x] Day 03: Toboggan Trajectory
 - [x] Day 04: Passport Processing
 - [x] Day 05: Binary Boarding
-- [ ] Day 06: Custom Customs
-- [ ] Day 07
+- [x] Day 06: Custom Customs
+- [ ] Day 07: Handy Haversacks
 - [ ] Day 08
 - [ ] Day 09 
 - [ ] Day 10
