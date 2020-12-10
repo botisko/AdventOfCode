@@ -12,7 +12,7 @@ A repository for [Advent of Code][1] challenges.
 - [x] Day 06: Custom Customs
 - [ ] Day 07: Handy Haversacks
 - [ ] Day 08: Handheld Halting
-- [ ] Day 09 
+- [x] Day 09: Encoding Error 
 - [ ] Day 10
 - [ ] Day 11
 - [ ] Day 12
