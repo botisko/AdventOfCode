@@ -11,7 +11,7 @@ A repository for [Advent of Code][1] challenges.
 - [x] Day 05: Binary Boarding
 - [x] Day 06: Custom Customs
 - [ ] Day 07: Handy Haversacks
-- [ ] Day 08
+- [ ] Day 08: Handheld Halting
 - [ ] Day 09 
 - [ ] Day 10
 - [ ] Day 11
