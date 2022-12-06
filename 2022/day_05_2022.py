@@ -101,7 +101,7 @@ def main():
         inverted_matrix[i].pop(0)
         inverted_matrix[i].reverse()
 
-    # print('The answer for day 5 part 1 is {}'.format(day_05_a(inverted_matrix, instructions)))
+    print('The answer for day 5 part 1 is {}'.format(day_05_a(inverted_matrix, instructions)))
     print('The answer for day 5 part 2 is {}'.format(day_05_b(inverted_matrix, instructions)))
 
 
