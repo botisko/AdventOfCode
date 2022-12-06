@@ -54,9 +54,7 @@ def main():
 
     list_data = data.split('\n')
 
-    print(list_data)
-
-    # print('The answer for day 2 part 1 is {}'.format(day_02_a(list_data)))
+    print('The answer for day 2 part 1 is {}'.format(day_02_a(list_data)))
     print('The answer for day 2 part 2 is {}'.format(day_02_b(list_data)))
 
 
