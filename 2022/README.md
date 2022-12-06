@@ -4,10 +4,10 @@
 ## Progress
 - [x] Day 01: Calorie Counting
 - [x] Day 02: Rock Paper Scissors
-- [ ] Day 03
-- [ ] Day 04
-- [ ] Day 05
-- [ ] Day 06
+- [x] Day 03: Rucksack Reorganization
+- [x] Day 04: Camp Cleanup
+- [x] Day 05: Supply Stacks
+- [x] Day 06: Tuning Trouble
 - [ ] Day 07
 - [ ] Day 08
 - [ ] Day 09 
