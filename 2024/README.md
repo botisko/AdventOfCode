@@ -2,10 +2,10 @@
 *see https://adventofcode.com/2024*
 
 ## Progress
-- [x] Day 01: Historian Hysteria
-- [ ] Day 02: Red-Nosed Reports
-- [x] Day 03: Mull It Over
-- [ ] Day 04: Ceres Search
+- [ ] Day 01
+- [ ] Day 02
+- [ ] Day 03
+- [ ] Day 04
 - [ ] Day 05
 - [ ] Day 06
 - [ ] Day 07
