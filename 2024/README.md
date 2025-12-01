@@ -3,9 +3,9 @@
 
 ## Progress
 - [x] Day 01: Historian Hysteria
-- [ ] Day 02: Red-Nosed Reports
+- [x] Day 02: Red-Nosed Reports
 - [x] Day 03: Mull It Over
-- [ ] Day 04: Ceres Search
+- [x] Day 04: Ceres Search
 - [ ] Day 05
 - [ ] Day 06
 - [ ] Day 07
