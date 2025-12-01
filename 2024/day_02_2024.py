@@ -36,7 +36,7 @@ def day_02_a(reports):
 
 def day_02_b(reports):
     """
-    The solution code of AoC 2024 day 2 part 2 problem2
+    The solution code of AoC 2024 day 2 part 2 problem
     :return:
     """
 
